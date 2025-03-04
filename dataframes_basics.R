@@ -34,5 +34,5 @@ View(df)
 # Checking data frame structure
 str(df)
 
-# Displaying statical data from the data frame
+# Displaying statiscal data from the data frame
 summary(df)

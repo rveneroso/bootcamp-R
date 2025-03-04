@@ -14,3 +14,9 @@ mat[1:3,]
 
 # Returns columns 1,2 and 3 from rows 1 and 2.
 mat[1:2,1:3]
+
+# Returns columns 9 and 10 from all the rows
+mat[,9:10]
+
+# Returns columns 5 and 6 from rows 2 and 3.
+mat[2:3,5:6]
