@@ -42,4 +42,4 @@ sorted.temp <- order(df['temp'])
 sorted.temp <- order(df$temp) 
 
 # Ordering by decreasing order.
-desc.temp <- order(-df['temp'])
+desc.temp <- order(df$temp, decreasing=TRUE) 
