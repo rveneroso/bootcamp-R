@@ -91,6 +91,9 @@ mtcars['mpg']
 # mtcars[,'mpg'] returns the column as a data frame.
 # mtcars[,1] returns the first column as a vector, which happens to be mpg in this case.
 
+# Getting multiple columns at once
+mtcars[c('mpg','cyl')]
+
 mtcars[startsWith(mtcars$column_name, "merc"), ]
 # Get all rows about Mercedes Benz automobiles.
 mercedes_cars <- mtcars[grepl("^Merc", rownames(mtcars)), ]
