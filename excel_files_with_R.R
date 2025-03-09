@@ -47,5 +47,5 @@ str(entire.workbook)
 #   - `entire.workbook[[1]]` contains the data from `"Sheet1"`.
 #   - `entire.workbook[[2]]` contains the data from `"Sheet2"`, and so on.
 
-# Access third sheet by name
-sheet3 <- entire.workbook[["Sheet3"]] 
+# Writing to an Excel file
+write.xlsx(mtcars,'mtcars_output.xlsx')
